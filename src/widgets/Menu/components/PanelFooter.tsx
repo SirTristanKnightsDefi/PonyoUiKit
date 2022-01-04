@@ -79,7 +79,7 @@ const PanelFooter: React.FC<Props> = ({
           {cakePriceUsd ? (
           <PriceLink href="" target="_blank">
             <img
-              src="https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33"
+              src="https://metaclubbers.mypinata.cloud/ipfs/QmR8bJGvqdhuDXPrPhHS7Th1gQWumCe1tU81AUwQ9dqvfd"
               alt="Pearl Logo"
               style={{
                 width: "24px",
@@ -92,7 +92,7 @@ const PanelFooter: React.FC<Props> = ({
         ) : (
           <Skeleton width={80} height={24}>
           <img
-              src="https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33"
+              src="https://metaclubbers.mypinata.cloud/ipfs/QmR8bJGvqdhuDXPrPhHS7Th1gQWumCe1tU81AUwQ9dqvfd"
               alt="Pearl Logo"
               style={{
                 width: "24px",

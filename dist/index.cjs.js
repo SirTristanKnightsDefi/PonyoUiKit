@@ -2737,12 +2737,12 @@ var PanelFooter = function (_a) {
     }
     return (React__default['default'].createElement(Container, null,
         React__default['default'].createElement(SocialEntry, null, cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "", target: "_blank" },
-            React__default['default'].createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Pearl Logo", style: {
+            React__default['default'].createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmR8bJGvqdhuDXPrPhHS7Th1gQWumCe1tU81AUwQ9dqvfd", alt: "Pearl Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
             React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
-            React__default['default'].createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Pearl Logo", style: {
+            React__default['default'].createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmR8bJGvqdhuDXPrPhHS7Th1gQWumCe1tU81AUwQ9dqvfd", alt: "Pearl Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } })))),
