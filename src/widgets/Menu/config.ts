@@ -120,14 +120,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/KnightsOfTheRoundBSCChat",
+        href: "https://t.me/ponyoinu",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/Knightsbsc",
+    href: "https://twitter.com/PonyoImpact",
   },
 ];
 
