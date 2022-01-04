@@ -2437,10 +2437,10 @@ var Logo = function (_a) {
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React.createElement(StyledLink, { as: "a", href: href, "aria-label": "Ponyo home page" },
-            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Ponyo Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: banner, alt: "Ponyo Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Ponyo home page" },
-            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Ponyo Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: banner, alt: "Ponyo Logo", className: "desktop-icon" })))));
+            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Ponyo Logo", className: "mobile-icon", height: "32px" }),
+            React.createElement("img", { src: banner, alt: "Ponyo Logo", className: "desktop-icon", height: "32px" }))) : (React.createElement(StyledLink, { to: href, "aria-label": "Ponyo home page" },
+            React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Ponyo Logo", className: "mobile-icon", height: "32px" }),
+            React.createElement("img", { src: banner, alt: "Ponyo Logo", className: "desktop-icon", height: "32px" })))));
 };
 var templateObject_1$c;
 

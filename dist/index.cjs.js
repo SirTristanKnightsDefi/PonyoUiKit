@@ -2450,10 +2450,10 @@ var Logo = function (_a) {
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Ponyo home page" },
-            React__default['default'].createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Ponyo Logo", className: "mobile-icon" }),
-            React__default['default'].createElement("img", { src: banner, alt: "Ponyo Logo", className: "desktop-icon" }))) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Ponyo home page" },
-            React__default['default'].createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Ponyo Logo", className: "mobile-icon" }),
-            React__default['default'].createElement("img", { src: banner, alt: "Ponyo Logo", className: "desktop-icon" })))));
+            React__default['default'].createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Ponyo Logo", className: "mobile-icon", height: "32px" }),
+            React__default['default'].createElement("img", { src: banner, alt: "Ponyo Logo", className: "desktop-icon", height: "32px" }))) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Ponyo home page" },
+            React__default['default'].createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Ponyo Logo", className: "mobile-icon", height: "32px" }),
+            React__default['default'].createElement("img", { src: banner, alt: "Ponyo Logo", className: "desktop-icon", height: "32px" })))));
 };
 var templateObject_1$c;
 

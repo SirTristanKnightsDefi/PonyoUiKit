@@ -54,11 +54,13 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
             src="https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33"
             alt="Ponyo Logo"
             className="mobile-icon"
+            height="32px"
           />
           <img
             src={banner}
             alt="Ponyo Logo"
             className="desktop-icon"
+            height="32px"
           />
         </StyledLink>
       ) : (
@@ -67,11 +69,13 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
             src="https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33"
             alt="Ponyo Logo"
             className="mobile-icon"
+            height="32px"
           />
           <img
             src={banner}
             alt="Ponyo Logo"
             className="desktop-icon"
+            height="32px"
           />
         </StyledLink>
       )}
