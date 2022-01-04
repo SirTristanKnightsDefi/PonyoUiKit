@@ -2741,7 +2741,7 @@ var PanelFooter = function (_a) {
                     width: "24px",
                     marginRight: "8px",
                 } }),
-            React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
+            React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(6)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
             React__default['default'].createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmR8bJGvqdhuDXPrPhHS7Th1gQWumCe1tU81AUwQ9dqvfd", alt: "Pearl Logo", style: {
                     width: "24px",
                     marginRight: "8px",
@@ -2751,7 +2751,7 @@ var PanelFooter = function (_a) {
                     width: "24px",
                     marginRight: "8px",
                 } }),
-            React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + legendPriceUsd.toFixed(2)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
+            React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + legendPriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
             React__default['default'].createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmUnmRb5GsQux1nESaNLcGQEQavd9TCFapG7ucR5BBJA33", alt: "Ponyo Logo", style: {
                     width: "24px",
                     marginRight: "8px",
