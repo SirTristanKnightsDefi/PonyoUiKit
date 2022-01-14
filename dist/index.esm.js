@@ -2728,7 +2728,7 @@ var PanelFooter = function (_a) {
                     width: "24px",
                     marginRight: "8px",
                 } }),
-            React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(6)))) : (React.createElement(Skeleton, { width: 80, height: 24 },
+            React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(8)))) : (React.createElement(Skeleton, { width: 80, height: 24 },
             React.createElement("img", { src: "https://metaclubbers.mypinata.cloud/ipfs/QmR8bJGvqdhuDXPrPhHS7Th1gQWumCe1tU81AUwQ9dqvfd", alt: "Pearl Logo", style: {
                     width: "24px",
                     marginRight: "8px",
